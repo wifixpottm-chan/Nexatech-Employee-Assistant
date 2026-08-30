@@ -1,0 +1,27 @@
+[project]
+name = "attendance-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain-core>=0.3.0",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-huggingface>=0.1.0",
+    "langchain-chroma>=0.1.0",
+    "langchain-groq>=0.1.0",
+    "langgraph>=0.2.0",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers",
+    "chromadb>=0.5.0",
+    "streamlit>=1.57.0",
+    "ipykernel>=7.2.0",
+    "notebook>=7.5.6",
+]
+
+[project.scripts]
+attendance-rag = "attendance_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"

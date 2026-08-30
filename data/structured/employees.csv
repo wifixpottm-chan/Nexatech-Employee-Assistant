@@ -1,0 +1,251 @@
+employee_id,name,department,role,employment_type,vacation_days,weekly_hours,office_location,manager_id,email
+E0001,Anna Müller,Data & AI,Data Analyst,Full-time,30,40,Stuttgart,,anna.mueller@nexatech.example
+E0002,Lukas Müller,Sales,Sales Manager,Full-time,30,40,Aalen,,lukas.mueller@nexatech.example
+E0003,Sophie Müller,Data & AI,Data Scientist,Full-time,30,40,Stuttgart,,sophie.mueller@nexatech.example
+E0004,Daniel Müller,Engineering,Software Engineer,Full-time,30,40,Stuttgart,,daniel.mueller@nexatech.example
+E0005,Laura Müller,Engineering,DevOps Engineer,Full-time,30,40,Aalen,,laura.mueller@nexatech.example
+E0006,Felix Müller,Finance,Accountant,Full-time,30,40,Aalen,,felix.mueller@nexatech.example
+E0007,Marie Müller,Marketing,Marketing Specialist,Full-time,30,40,Aalen,,marie.mueller@nexatech.example
+E0008,Jonas Müller,Finance,Controller,Full-time,30,40,Stuttgart,,jonas.mueller@nexatech.example
+E0009,Julia Müller,Sales,Sales Specialist,Full-time,30,40,Stuttgart,,julia.mueller@nexatech.example
+E0010,Paul Müller,Finance,Financial Analyst,Full-time,30,40,Ulm,,paul.mueller@nexatech.example
+E0011,Lea Müller,Marketing,Marketing Specialist,Full-time,30,40,Aalen,,lea.mueller@nexatech.example
+E0012,Maximilian Müller,Data & AI,ML Engineer,Full-time,30,40,Aalen,,maximilian.mueller@nexatech.example
+E0013,Emma Müller,Marketing,Marketing Manager,Part-time,24,20,Stuttgart,E0012,emma.mueller@nexatech.example
+E0014,Leon Müller,Engineering,Senior Software Engineer,Full-time,30,40,Stuttgart,E0002,leon.mueller@nexatech.example
+E0015,Hannah Müller,Data & AI,ML Engineer,Full-time,30,40,Aalen,E0008,hannah.mueller@nexatech.example
+E0016,Elias Müller,HR,HR Business Partner,Full-time,30,40,Stuttgart,E0006,elias.mueller@nexatech.example
+E0017,Mia Müller,Marketing,Marketing Specialist,Part-time,24,30,Aalen,E0003,mia.mueller@nexatech.example
+E0018,Noah Müller,Sales,Sales Manager,Full-time,30,40,Ulm,E0007,noah.mueller@nexatech.example
+E0019,Clara Müller,Sales,Sales Specialist,Full-time,30,40,Stuttgart,E0004,clara.mueller@nexatech.example
+E0020,Ben Müller,HR,People Operations Specialist,Full-time,30,40,Stuttgart,E0002,ben.mueller@nexatech.example
+E0021,Katharina Müller,HR,HR Business Partner,Full-time,30,40,Aalen,E0007,katharina.mueller@nexatech.example
+E0022,Tim Müller,Operations,Operations Manager,Full-time,30,40,Stuttgart,E0003,tim.mueller@nexatech.example
+E0023,Lisa Müller,Marketing,SEO Specialist,Part-time,24,24,Stuttgart,E0006,lisa.mueller@nexatech.example
+E0024,Moritz Müller,Product,Business Analyst,Full-time,30,40,Stuttgart,E0001,moritz.mueller@nexatech.example
+E0025,Nina Müller,Product,Product Owner,Full-time,30,40,Stuttgart,E0010,nina.mueller@nexatech.example
+E0026,David Müller,Finance,Finance Specialist,Part-time,24,24,Ulm,E0009,david.mueller@nexatech.example
+E0027,Sarah Müller,Engineering,Software Engineer,Full-time,30,40,Aalen,E0005,sarah.mueller@nexatech.example
+E0028,Jan Müller,HR,HR Specialist,Full-time,30,40,Stuttgart,E0007,jan.mueller@nexatech.example
+E0029,Johanna Müller,Operations,Operations Specialist,Full-time,30,40,Stuttgart,E0009,johanna.mueller@nexatech.example
+E0030,Simon Müller,Data & AI,AI Engineer,Full-time,30,40,Stuttgart,E0010,simon.mueller@nexatech.example
+E0031,Amelie Müller,Product,UX Designer,Full-time,30,40,Aalen,E0009,amelie.mueller@nexatech.example
+E0032,Philipp Müller,Engineering,DevOps Engineer,Full-time,30,40,Stuttgart,E0008,philipp.mueller@nexatech.example
+E0033,Lena Müller,Data & AI,AI Engineer,Full-time,30,40,Stuttgart,E0004,lena.mueller@nexatech.example
+E0034,Niklas Müller,Sales,Account Manager,Full-time,30,40,Ulm,E0012,niklas.mueller@nexatech.example
+E0035,Charlotte Müller,Data & AI,Data Scientist,Full-time,30,40,Aalen,E0003,charlotte.mueller@nexatech.example
+E0036,Tobias Müller,Operations,Operations Manager,Full-time,30,40,Aalen,E0009,tobias.mueller@nexatech.example
+E0037,Maja Müller,Finance,Accountant,Full-time,30,40,Aalen,E0012,maja.mueller@nexatech.example
+E0038,Sebastian Müller,Sales,Sales Specialist,Full-time,30,40,Aalen,E0011,sebastian.mueller@nexatech.example
+E0039,Elena Müller,HR,People Operations Specialist,Full-time,30,40,Stuttgart,E0008,elena.mueller@nexatech.example
+E0040,Florian Müller,Sales,Sales Manager,Full-time,30,40,Stuttgart,E0006,florian.mueller@nexatech.example
+E0041,Nora Müller,Sales,Sales Manager,Full-time,30,40,Aalen,E0002,nora.mueller@nexatech.example
+E0042,Alexander Müller,Engineering,Senior Software Engineer,Full-time,30,40,Ulm,E0001,alexander.mueller@nexatech.example
+E0043,Miriam Müller,Data & AI,Data Scientist,Full-time,30,40,Aalen,E0005,miriam.mueller@nexatech.example
+E0044,Christian Müller,Operations,Operations Manager,Full-time,30,40,Aalen,E0003,christian.mueller@nexatech.example
+E0045,Alina Müller,Operations,Operations Manager,Full-time,30,40,Stuttgart,E0007,alina.mueller@nexatech.example
+E0046,Michael Müller,Data & AI,Data Analyst,Full-time,30,40,Ulm,E0006,michael.mueller@nexatech.example
+E0047,Theresa Müller,Finance,Finance Specialist,Full-time,30,40,Aalen,E0011,theresa.mueller@nexatech.example
+E0048,Patrick Müller,Data & AI,Data Analyst,Full-time,30,40,Ulm,E0012,patrick.mueller@nexatech.example
+E0049,Sina Müller,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0004,sina.mueller@nexatech.example
+E0050,Andreas Müller,Operations,Operations Manager,Full-time,30,40,Ulm,E0003,andreas.mueller@nexatech.example
+E0051,Anna Schmidt,Operations,Operations Manager,Full-time,30,40,Aalen,E0008,anna.schmidt@nexatech.example
+E0052,Lukas Schmidt,Data & AI,Data Analyst,Full-time,30,40,Stuttgart,E0001,lukas.schmidt@nexatech.example
+E0053,Sophie Schmidt,Sales,Sales Manager,Full-time,30,40,Ulm,E0008,sophie.schmidt@nexatech.example
+E0054,Daniel Schmidt,Sales,Business Development Manager,Full-time,30,40,Ulm,E0003,daniel.schmidt@nexatech.example
+E0055,Laura Schmidt,Engineering,Frontend Developer,Full-time,30,40,Ulm,E0008,laura.schmidt@nexatech.example
+E0056,Felix Schmidt,Finance,Finance Specialist,Full-time,30,40,Ulm,E0004,felix.schmidt@nexatech.example
+E0057,Marie Schmidt,Sales,Account Manager,Part-time,24,30,Stuttgart,E0009,marie.schmidt@nexatech.example
+E0058,Jonas Schmidt,HR,HR Specialist,Full-time,30,40,Ulm,E0010,jonas.schmidt@nexatech.example
+E0059,Julia Schmidt,Product,Product Manager,Full-time,30,40,Stuttgart,E0002,julia.schmidt@nexatech.example
+E0060,Paul Schmidt,Data & AI,Data Scientist,Full-time,30,40,Stuttgart,E0011,paul.schmidt@nexatech.example
+E0061,Lea Schmidt,Finance,Financial Analyst,Part-time,24,20,Aalen,E0010,lea.schmidt@nexatech.example
+E0062,Maximilian Schmidt,Engineering,DevOps Engineer,Full-time,30,40,Aalen,E0007,maximilian.schmidt@nexatech.example
+E0063,Emma Schmidt,HR,Recruiter,Full-time,30,40,Aalen,E0011,emma.schmidt@nexatech.example
+E0064,Leon Schmidt,HR,HR Business Partner,Full-time,30,40,Stuttgart,E0007,leon.schmidt@nexatech.example
+E0065,Hannah Schmidt,Marketing,SEO Specialist,Full-time,30,40,Stuttgart,E0002,hannah.schmidt@nexatech.example
+E0066,Elias Schmidt,Operations,Operations Specialist,Full-time,30,40,Stuttgart,E0009,elias.schmidt@nexatech.example
+E0067,Mia Schmidt,Marketing,Content Manager,Full-time,30,40,Stuttgart,E0002,mia.schmidt@nexatech.example
+E0068,Noah Schmidt,HR,Recruiter,Full-time,30,40,Aalen,E0008,noah.schmidt@nexatech.example
+E0069,Clara Schmidt,Marketing,Marketing Specialist,Full-time,30,40,Aalen,E0005,clara.schmidt@nexatech.example
+E0070,Ben Schmidt,Data & AI,Data Engineer,Full-time,30,40,Stuttgart,E0002,ben.schmidt@nexatech.example
+E0071,Katharina Schmidt,Product,UX Designer,Full-time,30,40,Stuttgart,E0010,katharina.schmidt@nexatech.example
+E0072,Tim Schmidt,HR,HR Business Partner,Full-time,30,40,Ulm,E0009,tim.schmidt@nexatech.example
+E0073,Lisa Schmidt,Marketing,Marketing Specialist,Full-time,30,40,Ulm,E0011,lisa.schmidt@nexatech.example
+E0074,Moritz Schmidt,Marketing,Marketing Specialist,Full-time,30,40,Stuttgart,E0006,moritz.schmidt@nexatech.example
+E0075,Nina Schmidt,Marketing,Content Manager,Full-time,30,40,Aalen,E0009,nina.schmidt@nexatech.example
+E0076,David Schmidt,Finance,Financial Analyst,Full-time,30,40,Aalen,E0002,david.schmidt@nexatech.example
+E0077,Sarah Schmidt,Product,Product Manager,Full-time,30,40,Aalen,E0010,sarah.schmidt@nexatech.example
+E0078,Jan Schmidt,Product,Business Analyst,Full-time,30,40,Ulm,E0001,jan.schmidt@nexatech.example
+E0079,Johanna Schmidt,HR,HR Specialist,Full-time,30,40,Aalen,E0004,johanna.schmidt@nexatech.example
+E0080,Simon Schmidt,Sales,Account Manager,Full-time,30,40,Ulm,E0009,simon.schmidt@nexatech.example
+E0081,Amelie Schmidt,Product,Product Owner,Full-time,30,40,Ulm,E0003,amelie.schmidt@nexatech.example
+E0082,Philipp Schmidt,Engineering,Senior Software Engineer,Full-time,30,40,Aalen,E0007,philipp.schmidt@nexatech.example
+E0083,Lena Schmidt,Sales,Sales Specialist,Full-time,30,40,Stuttgart,E0012,lena.schmidt@nexatech.example
+E0084,Niklas Schmidt,Finance,Financial Analyst,Full-time,30,40,Stuttgart,E0004,niklas.schmidt@nexatech.example
+E0085,Charlotte Schmidt,Operations,Project Coordinator,Full-time,30,40,Stuttgart,E0004,charlotte.schmidt@nexatech.example
+E0086,Tobias Schmidt,Engineering,Senior Software Engineer,Full-time,30,40,Ulm,E0006,tobias.schmidt@nexatech.example
+E0087,Maja Schmidt,Data & AI,AI Engineer,Full-time,30,40,Aalen,E0011,maja.schmidt@nexatech.example
+E0088,Sebastian Schmidt,Finance,Controller,Full-time,30,40,Ulm,E0002,sebastian.schmidt@nexatech.example
+E0089,Elena Schmidt,Product,UX Designer,Full-time,30,40,Aalen,E0002,elena.schmidt@nexatech.example
+E0090,Florian Schmidt,Finance,Controller,Full-time,30,40,Aalen,E0007,florian.schmidt@nexatech.example
+E0091,Nora Schmidt,Data & AI,ML Engineer,Part-time,24,20,Stuttgart,E0005,nora.schmidt@nexatech.example
+E0092,Alexander Schmidt,Finance,Financial Analyst,Full-time,30,40,Aalen,E0009,alexander.schmidt@nexatech.example
+E0093,Miriam Schmidt,Sales,Sales Specialist,Full-time,30,40,Aalen,E0002,miriam.schmidt@nexatech.example
+E0094,Christian Schmidt,HR,Recruiter,Full-time,30,40,Ulm,E0012,christian.schmidt@nexatech.example
+E0095,Alina Schmidt,Marketing,SEO Specialist,Full-time,30,40,Aalen,E0007,alina.schmidt@nexatech.example
+E0096,Michael Schmidt,Marketing,Content Manager,Full-time,30,40,Aalen,E0007,michael.schmidt@nexatech.example
+E0097,Theresa Schmidt,Finance,Accountant,Part-time,24,30,Ulm,E0005,theresa.schmidt@nexatech.example
+E0098,Patrick Schmidt,Engineering,Backend Developer,Full-time,30,40,Ulm,E0004,patrick.schmidt@nexatech.example
+E0099,Sina Schmidt,HR,People Operations Specialist,Full-time,30,40,Aalen,E0008,sina.schmidt@nexatech.example
+E0100,Andreas Schmidt,Sales,Business Development Manager,Full-time,30,40,Stuttgart,E0011,andreas.schmidt@nexatech.example
+E0101,Anna Schneider,Marketing,Marketing Manager,Full-time,30,40,Aalen,E0004,anna.schneider@nexatech.example
+E0102,Lukas Schneider,Marketing,Content Manager,Full-time,30,40,Stuttgart,E0003,lukas.schneider@nexatech.example
+E0103,Sophie Schneider,Engineering,Senior Software Engineer,Full-time,30,40,Stuttgart,E0010,sophie.schneider@nexatech.example
+E0104,Daniel Schneider,Operations,Office Manager,Part-time,24,20,Aalen,E0012,daniel.schneider@nexatech.example
+E0105,Laura Schneider,Finance,Finance Specialist,Full-time,30,40,Stuttgart,E0004,laura.schneider@nexatech.example
+E0106,Felix Schneider,Engineering,Software Engineer,Full-time,30,40,Stuttgart,E0004,felix.schneider@nexatech.example
+E0107,Marie Schneider,Operations,Operations Specialist,Full-time,30,40,Stuttgart,E0004,marie.schneider@nexatech.example
+E0108,Jonas Schneider,Operations,Operations Manager,Full-time,30,40,Aalen,E0011,jonas.schneider@nexatech.example
+E0109,Julia Schneider,HR,People Operations Specialist,Part-time,24,30,Ulm,E0009,julia.schneider@nexatech.example
+E0110,Paul Schneider,Operations,Operations Manager,Full-time,30,40,Ulm,E0008,paul.schneider@nexatech.example
+E0111,Lea Schneider,Sales,Sales Specialist,Full-time,30,40,Aalen,E0008,lea.schneider@nexatech.example
+E0112,Maximilian Schneider,Sales,Sales Specialist,Full-time,30,40,Aalen,E0002,maximilian.schneider@nexatech.example
+E0113,Emma Schneider,Marketing,Content Manager,Full-time,30,40,Ulm,E0006,emma.schneider@nexatech.example
+E0114,Leon Schneider,Data & AI,Data Engineer,Full-time,30,40,Ulm,E0004,leon.schneider@nexatech.example
+E0115,Hannah Schneider,Product,Product Owner,Full-time,30,40,Ulm,E0007,hannah.schneider@nexatech.example
+E0116,Elias Schneider,HR,People Operations Specialist,Full-time,30,40,Stuttgart,E0001,elias.schneider@nexatech.example
+E0117,Mia Schneider,Finance,Finance Specialist,Part-time,24,30,Aalen,E0001,mia.schneider@nexatech.example
+E0118,Noah Schneider,Finance,Finance Specialist,Full-time,30,40,Ulm,E0006,noah.schneider@nexatech.example
+E0119,Clara Schneider,Finance,Finance Specialist,Full-time,30,40,Aalen,E0012,clara.schneider@nexatech.example
+E0120,Ben Schneider,Sales,Business Development Manager,Full-time,30,40,Ulm,E0005,ben.schneider@nexatech.example
+E0121,Katharina Schneider,Operations,Operations Specialist,Full-time,30,40,Aalen,E0006,katharina.schneider@nexatech.example
+E0122,Tim Schneider,Finance,Accountant,Full-time,30,40,Aalen,E0003,tim.schneider@nexatech.example
+E0123,Lisa Schneider,Engineering,Frontend Developer,Part-time,24,30,Stuttgart,E0011,lisa.schneider@nexatech.example
+E0124,Moritz Schneider,Data & AI,ML Engineer,Full-time,30,40,Stuttgart,E0008,moritz.schneider@nexatech.example
+E0125,Nina Schneider,Engineering,Backend Developer,Full-time,30,40,Stuttgart,E0006,nina.schneider@nexatech.example
+E0126,David Schneider,Operations,Project Coordinator,Full-time,30,40,Ulm,E0007,david.schneider@nexatech.example
+E0127,Sarah Schneider,Finance,Controller,Full-time,30,40,Stuttgart,E0008,sarah.schneider@nexatech.example
+E0128,Jan Schneider,Engineering,Backend Developer,Full-time,30,40,Stuttgart,E0011,jan.schneider@nexatech.example
+E0129,Johanna Schneider,Engineering,Software Engineer,Full-time,30,40,Stuttgart,E0004,johanna.schneider@nexatech.example
+E0130,Simon Schneider,Product,Product Owner,Full-time,30,40,Aalen,E0008,simon.schneider@nexatech.example
+E0131,Amelie Schneider,Data & AI,Data Scientist,Full-time,30,40,Aalen,E0008,amelie.schneider@nexatech.example
+E0132,Philipp Schneider,Marketing,Marketing Manager,Full-time,30,40,Aalen,E0010,philipp.schneider@nexatech.example
+E0133,Lena Schneider,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0002,lena.schneider@nexatech.example
+E0134,Niklas Schneider,Engineering,Backend Developer,Part-time,24,30,Ulm,E0007,niklas.schneider@nexatech.example
+E0135,Charlotte Schneider,Sales,Account Manager,Part-time,24,30,Stuttgart,E0011,charlotte.schneider@nexatech.example
+E0136,Tobias Schneider,Data & AI,AI Engineer,Part-time,24,20,Stuttgart,E0010,tobias.schneider@nexatech.example
+E0137,Maja Schneider,HR,People Operations Specialist,Full-time,30,40,Aalen,E0002,maja.schneider@nexatech.example
+E0138,Sebastian Schneider,HR,HR Specialist,Full-time,30,40,Stuttgart,E0008,sebastian.schneider@nexatech.example
+E0139,Elena Schneider,Finance,Controller,Full-time,30,40,Stuttgart,E0012,elena.schneider@nexatech.example
+E0140,Florian Schneider,Finance,Accountant,Full-time,30,40,Ulm,E0011,florian.schneider@nexatech.example
+E0141,Nora Schneider,Operations,Office Manager,Full-time,30,40,Aalen,E0012,nora.schneider@nexatech.example
+E0142,Alexander Schneider,Marketing,Marketing Manager,Full-time,30,40,Ulm,E0002,alexander.schneider@nexatech.example
+E0143,Miriam Schneider,Operations,Operations Manager,Full-time,30,40,Aalen,E0010,miriam.schneider@nexatech.example
+E0144,Christian Schneider,Finance,Controller,Full-time,30,40,Ulm,E0008,christian.schneider@nexatech.example
+E0145,Alina Schneider,Product,Business Analyst,Full-time,30,40,Ulm,E0006,alina.schneider@nexatech.example
+E0146,Michael Schneider,HR,Recruiter,Part-time,24,30,Aalen,E0005,michael.schneider@nexatech.example
+E0147,Theresa Schneider,Engineering,DevOps Engineer,Full-time,30,40,Stuttgart,E0002,theresa.schneider@nexatech.example
+E0148,Patrick Schneider,Finance,Finance Specialist,Full-time,30,40,Aalen,E0004,patrick.schneider@nexatech.example
+E0149,Sina Schneider,Operations,Office Manager,Full-time,30,40,Stuttgart,E0001,sina.schneider@nexatech.example
+E0150,Andreas Schneider,Marketing,Content Manager,Full-time,30,40,Stuttgart,E0012,andreas.schneider@nexatech.example
+E0151,Anna Fischer,Marketing,Marketing Manager,Full-time,30,40,Aalen,E0009,anna.fischer@nexatech.example
+E0152,Lukas Fischer,HR,People Operations Specialist,Full-time,30,40,Ulm,E0006,lukas.fischer@nexatech.example
+E0153,Sophie Fischer,Operations,Project Coordinator,Full-time,30,40,Stuttgart,E0005,sophie.fischer@nexatech.example
+E0154,Daniel Fischer,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0002,daniel.fischer@nexatech.example
+E0155,Laura Fischer,Product,Product Owner,Full-time,30,40,Ulm,E0012,laura.fischer@nexatech.example
+E0156,Felix Fischer,Marketing,Marketing Manager,Full-time,30,40,Ulm,E0004,felix.fischer@nexatech.example
+E0157,Marie Fischer,Sales,Sales Specialist,Full-time,30,40,Stuttgart,E0005,marie.fischer@nexatech.example
+E0158,Jonas Fischer,Product,UX Designer,Full-time,30,40,Aalen,E0001,jonas.fischer@nexatech.example
+E0159,Julia Fischer,Marketing,Content Manager,Full-time,30,40,Stuttgart,E0002,julia.fischer@nexatech.example
+E0160,Paul Fischer,Marketing,SEO Specialist,Full-time,30,40,Ulm,E0008,paul.fischer@nexatech.example
+E0161,Lea Fischer,Product,Product Manager,Full-time,30,40,Stuttgart,E0008,lea.fischer@nexatech.example
+E0162,Maximilian Fischer,Data & AI,ML Engineer,Full-time,30,40,Aalen,E0002,maximilian.fischer@nexatech.example
+E0163,Emma Fischer,Engineering,Senior Software Engineer,Full-time,30,40,Ulm,E0010,emma.fischer@nexatech.example
+E0164,Leon Fischer,Data & AI,Data Engineer,Full-time,30,40,Ulm,E0009,leon.fischer@nexatech.example
+E0165,Hannah Fischer,Sales,Business Development Manager,Full-time,30,40,Ulm,E0008,hannah.fischer@nexatech.example
+E0166,Elias Fischer,Finance,Controller,Part-time,24,30,Aalen,E0001,elias.fischer@nexatech.example
+E0167,Mia Fischer,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0005,mia.fischer@nexatech.example
+E0168,Noah Fischer,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0003,noah.fischer@nexatech.example
+E0169,Clara Fischer,Data & AI,Data Engineer,Full-time,30,40,Ulm,E0007,clara.fischer@nexatech.example
+E0170,Ben Fischer,Operations,Project Coordinator,Full-time,30,40,Ulm,E0004,ben.fischer@nexatech.example
+E0171,Katharina Fischer,Marketing,SEO Specialist,Full-time,30,40,Stuttgart,E0011,katharina.fischer@nexatech.example
+E0172,Tim Fischer,Marketing,Content Manager,Full-time,30,40,Aalen,E0002,tim.fischer@nexatech.example
+E0173,Lisa Fischer,Sales,Sales Manager,Full-time,30,40,Stuttgart,E0003,lisa.fischer@nexatech.example
+E0174,Moritz Fischer,Engineering,Senior Software Engineer,Full-time,30,40,Aalen,E0010,moritz.fischer@nexatech.example
+E0175,Nina Fischer,Marketing,SEO Specialist,Full-time,30,40,Aalen,E0008,nina.fischer@nexatech.example
+E0176,David Fischer,Marketing,SEO Specialist,Full-time,30,40,Aalen,E0009,david.fischer@nexatech.example
+E0177,Sarah Fischer,Operations,Office Manager,Full-time,30,40,Stuttgart,E0010,sarah.fischer@nexatech.example
+E0178,Jan Fischer,Finance,Controller,Part-time,24,24,Stuttgart,E0001,jan.fischer@nexatech.example
+E0179,Johanna Fischer,Sales,Account Manager,Full-time,30,40,Stuttgart,E0010,johanna.fischer@nexatech.example
+E0180,Simon Fischer,Product,Business Analyst,Full-time,30,40,Ulm,E0011,simon.fischer@nexatech.example
+E0181,Amelie Fischer,Marketing,Content Manager,Part-time,24,24,Ulm,E0011,amelie.fischer@nexatech.example
+E0182,Philipp Fischer,Data & AI,ML Engineer,Full-time,30,40,Ulm,E0007,philipp.fischer@nexatech.example
+E0183,Lena Fischer,HR,HR Specialist,Full-time,30,40,Ulm,E0006,lena.fischer@nexatech.example
+E0184,Niklas Fischer,Operations,Project Coordinator,Full-time,30,40,Stuttgart,E0009,niklas.fischer@nexatech.example
+E0185,Charlotte Fischer,Operations,Operations Specialist,Full-time,30,40,Ulm,E0005,charlotte.fischer@nexatech.example
+E0186,Tobias Fischer,Data & AI,ML Engineer,Full-time,30,40,Aalen,E0001,tobias.fischer@nexatech.example
+E0187,Maja Fischer,Operations,Office Manager,Full-time,30,40,Aalen,E0004,maja.fischer@nexatech.example
+E0188,Sebastian Fischer,HR,People Operations Specialist,Full-time,30,40,Stuttgart,E0001,sebastian.fischer@nexatech.example
+E0189,Elena Fischer,Marketing,Content Manager,Full-time,30,40,Aalen,E0008,elena.fischer@nexatech.example
+E0190,Florian Fischer,Operations,Operations Specialist,Full-time,30,40,Aalen,E0011,florian.fischer@nexatech.example
+E0191,Nora Fischer,Sales,Sales Manager,Full-time,30,40,Stuttgart,E0009,nora.fischer@nexatech.example
+E0192,Alexander Fischer,Finance,Financial Analyst,Full-time,30,40,Ulm,E0002,alexander.fischer@nexatech.example
+E0193,Miriam Fischer,Data & AI,Data Engineer,Full-time,30,40,Ulm,E0012,miriam.fischer@nexatech.example
+E0194,Christian Fischer,Marketing,SEO Specialist,Full-time,30,40,Stuttgart,E0008,christian.fischer@nexatech.example
+E0195,Alina Fischer,Operations,Operations Manager,Full-time,30,40,Aalen,E0004,alina.fischer@nexatech.example
+E0196,Michael Fischer,Product,Product Manager,Full-time,30,40,Ulm,E0007,michael.fischer@nexatech.example
+E0197,Theresa Fischer,Marketing,Marketing Specialist,Full-time,30,40,Ulm,E0012,theresa.fischer@nexatech.example
+E0198,Patrick Fischer,Operations,Operations Manager,Full-time,30,40,Ulm,E0009,patrick.fischer@nexatech.example
+E0199,Sina Fischer,HR,Recruiter,Full-time,30,40,Ulm,E0009,sina.fischer@nexatech.example
+E0200,Andreas Fischer,Operations,Project Coordinator,Full-time,30,40,Stuttgart,E0012,andreas.fischer@nexatech.example
+E0201,Anna Weber,Finance,Accountant,Full-time,30,40,Ulm,E0001,anna.weber@nexatech.example
+E0202,Lukas Weber,Operations,Office Manager,Full-time,30,40,Aalen,E0011,lukas.weber@nexatech.example
+E0203,Sophie Weber,Product,Business Analyst,Full-time,30,40,Aalen,E0003,sophie.weber@nexatech.example
+E0204,Daniel Weber,HR,HR Specialist,Full-time,30,40,Aalen,E0002,daniel.weber@nexatech.example
+E0205,Laura Weber,Operations,Operations Specialist,Full-time,30,40,Aalen,E0007,laura.weber@nexatech.example
+E0206,Felix Weber,Product,Product Manager,Full-time,30,40,Ulm,E0005,felix.weber@nexatech.example
+E0207,Marie Weber,Finance,Financial Analyst,Full-time,30,40,Aalen,E0011,marie.weber@nexatech.example
+E0208,Jonas Weber,Finance,Controller,Full-time,30,40,Stuttgart,E0009,jonas.weber@nexatech.example
+E0209,Julia Weber,Data & AI,Data Engineer,Full-time,30,40,Aalen,E0004,julia.weber@nexatech.example
+E0210,Paul Weber,Data & AI,ML Engineer,Full-time,30,40,Aalen,E0011,paul.weber@nexatech.example
+E0211,Lea Weber,Data & AI,ML Engineer,Full-time,30,40,Ulm,E0012,lea.weber@nexatech.example
+E0212,Maximilian Weber,Engineering,Software Engineer,Full-time,30,40,Ulm,E0001,maximilian.weber@nexatech.example
+E0213,Emma Weber,HR,Recruiter,Full-time,30,40,Stuttgart,E0003,emma.weber@nexatech.example
+E0214,Leon Weber,Finance,Accountant,Full-time,30,40,Stuttgart,E0003,leon.weber@nexatech.example
+E0215,Hannah Weber,Finance,Accountant,Full-time,30,40,Stuttgart,E0010,hannah.weber@nexatech.example
+E0216,Elias Weber,Sales,Business Development Manager,Full-time,30,40,Ulm,E0008,elias.weber@nexatech.example
+E0217,Mia Weber,Engineering,Frontend Developer,Full-time,30,40,Aalen,E0011,mia.weber@nexatech.example
+E0218,Noah Weber,Product,Product Manager,Full-time,30,40,Aalen,E0006,noah.weber@nexatech.example
+E0219,Clara Weber,Marketing,SEO Specialist,Full-time,30,40,Ulm,E0008,clara.weber@nexatech.example
+E0220,Ben Weber,Sales,Business Development Manager,Full-time,30,40,Stuttgart,E0002,ben.weber@nexatech.example
+E0221,Katharina Weber,Finance,Controller,Part-time,24,24,Ulm,E0012,katharina.weber@nexatech.example
+E0222,Tim Weber,Engineering,Frontend Developer,Full-time,30,40,Aalen,E0001,tim.weber@nexatech.example
+E0223,Lisa Weber,Engineering,DevOps Engineer,Full-time,30,40,Stuttgart,E0005,lisa.weber@nexatech.example
+E0224,Moritz Weber,HR,HR Business Partner,Full-time,30,40,Ulm,E0010,moritz.weber@nexatech.example
+E0225,Nina Weber,Product,Product Manager,Full-time,30,40,Ulm,E0005,nina.weber@nexatech.example
+E0226,David Weber,Engineering,DevOps Engineer,Full-time,30,40,Stuttgart,E0012,david.weber@nexatech.example
+E0227,Sarah Weber,Data & AI,AI Engineer,Full-time,30,40,Ulm,E0012,sarah.weber@nexatech.example
+E0228,Jan Weber,Product,Product Owner,Full-time,30,40,Ulm,E0009,jan.weber@nexatech.example
+E0229,Johanna Weber,Marketing,Content Manager,Full-time,30,40,Ulm,E0008,johanna.weber@nexatech.example
+E0230,Simon Weber,HR,HR Specialist,Full-time,30,40,Stuttgart,E0002,simon.weber@nexatech.example
+E0231,Amelie Weber,Sales,Business Development Manager,Full-time,30,40,Stuttgart,E0006,amelie.weber@nexatech.example
+E0232,Philipp Weber,Finance,Financial Analyst,Full-time,30,40,Stuttgart,E0009,philipp.weber@nexatech.example
+E0233,Lena Weber,Operations,Project Coordinator,Full-time,30,40,Ulm,E0010,lena.weber@nexatech.example
+E0234,Niklas Weber,HR,HR Specialist,Full-time,30,40,Stuttgart,E0008,niklas.weber@nexatech.example
+E0235,Charlotte Weber,HR,HR Business Partner,Full-time,30,40,Ulm,E0011,charlotte.weber@nexatech.example
+E0236,Tobias Weber,Marketing,SEO Specialist,Full-time,30,40,Stuttgart,E0003,tobias.weber@nexatech.example
+E0237,Maja Weber,Engineering,Backend Developer,Full-time,30,40,Stuttgart,E0002,maja.weber@nexatech.example
+E0238,Sebastian Weber,Sales,Sales Manager,Full-time,30,40,Ulm,E0008,sebastian.weber@nexatech.example
+E0239,Elena Weber,Finance,Accountant,Full-time,30,40,Stuttgart,E0011,elena.weber@nexatech.example
+E0240,Florian Weber,Operations,Office Manager,Full-time,30,40,Aalen,E0001,florian.weber@nexatech.example
+E0241,Nora Weber,HR,HR Business Partner,Full-time,30,40,Stuttgart,E0008,nora.weber@nexatech.example
+E0242,Alexander Weber,HR,HR Specialist,Full-time,30,40,Aalen,E0009,alexander.weber@nexatech.example
+E0243,Miriam Weber,HR,HR Specialist,Full-time,30,40,Stuttgart,E0005,miriam.weber@nexatech.example
+E0244,Christian Weber,Data & AI,ML Engineer,Full-time,30,40,Stuttgart,E0011,christian.weber@nexatech.example
+E0245,Alina Weber,Engineering,Software Engineer,Full-time,30,40,Stuttgart,E0004,alina.weber@nexatech.example
+E0246,Michael Weber,Sales,Account Manager,Full-time,30,40,Aalen,E0004,michael.weber@nexatech.example
+E0247,Theresa Weber,Sales,Sales Manager,Full-time,30,40,Aalen,E0003,theresa.weber@nexatech.example
+E0248,Patrick Weber,Engineering,Backend Developer,Full-time,30,40,Aalen,E0003,patrick.weber@nexatech.example
+E0249,Sina Weber,Marketing,Content Manager,Full-time,30,40,Stuttgart,E0011,sina.weber@nexatech.example
+E0250,Andreas Weber,Product,Product Manager,Full-time,30,40,Aalen,E0004,andreas.weber@nexatech.example
