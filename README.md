@@ -32,8 +32,15 @@ The NexaTech Employee Assistant is an intelligent agent that combines **Retrieva
 attendance-rag/
 ├── app.py                          # Streamlit UI application
 ├── agent_backend_seventhnb.py      # Agent logic, tools, and RAG setup
-├── pyproject.toml                  # Project dependencies and configuration
-├── .env                            # Environment variables (GROQ_API_KEY)
+├── pyproject.toml                  # Project metadata and dependencies
+├── Dockerfile                      # Container image definition
+├── docker-compose.yml              # Local container orchestration
+├── .dockerignore                   # Files excluded from image builds
+├── rag.py                          # Standalone RAG retrieval pipeline
+├── evaluate_rag.py                 # Deterministic retrieval evaluation
+├── tests/
+│   └── test_rag_retrieval.py       # Retrieval tests
+├── .env                            # Local environment variables (not committed)
 ├── data/
 │   ├── structured/
 │   │   ├── employees.csv           # Employee master data
@@ -74,6 +81,7 @@ attendance-rag/
 - Python 3.14+
 - UV package manager
 - Groq API key
+- Docker Desktop (optional, for containerized execution)
 
 ### Setup Steps
 
@@ -107,6 +115,45 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501`
 
+### Evaluate RAG Retrieval
+
+Run the deterministic retrieval evaluation without calling Groq:
+
+```bash
+uv run python evaluate_rag.py
+uv run pytest tests/test_rag_retrieval.py -q
+```
+
+The evaluation checks that expected policy sources are retrieved and that an
+unrelated question returns no policy context.
+
+### Run with Docker
+
+With Docker Desktop running and `GROQ_API_KEY` set in `.env`:
+
+```bash
+docker compose up --build
+```
+
+Open `http://localhost:8501`. The embedding model is downloaded on the first
+retrieval inside the container.
+
+To run the container in the background:
+
+```bash
+docker compose up --build -d
+```
+
+To stop and remove the running container:
+
+```bash
+docker compose down
+```
+
+Docker packages the Python runtime, dependencies, application code, and startup
+command so the project can run consistently on another machine with Docker
+Desktop installed.
+
 ### Using the Chat Interface
 
 1. **Select an employee** from the sidebar (e.g., E0001)
@@ -115,7 +162,7 @@ The app will open at `http://localhost:8501`
 
 ## Screenshots
 
-See the `screenshots/` folder for examples of the three queries in action:
+See the `Screenshots/` folder for examples of the three queries in action:
 - Attendance query: "How many days did E0001 work from home in August 2026?"
 - Policy query: "What is the company's policy regarding working from home?"
 - Compliance query: "Did E0001 comply with the office attendance requirement in August 2026?"
@@ -164,6 +211,7 @@ Final Answer
 3. **Embed**: HuggingFace sentence transformers
 4. **Store**: ChromaDB vector collection
 5. **Retrieve**: Top-4 semantic matches for policy queries
+6. **Filter**: Low-confidence matches are removed so unrelated questions do not receive policy context
 
 ## Environment Variables
 
