@@ -1,7 +1,7 @@
 [project]
 name = "attendance-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "A RAG-powered employee attendance and workplace policy assistant"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -17,10 +17,14 @@ dependencies = [
     "streamlit>=1.57.0",
     "ipykernel>=7.2.0",
     "notebook>=7.5.6",
+    "pytest>=8.0.0",
 ]
 
 [project.scripts]
 attendance-rag = "attendance_rag:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
 
 [build-system]
 requires = ["uv_build>=0.12.6,<0.13.0"]
